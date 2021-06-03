@@ -1,0 +1,57 @@
+* {margin: 0%;
+    padding:0%;
+    list-style: none;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;}
+
+
+    body {background-color: rgb(245, 249, 250);
+        }
+
+    div.menu {height: 190px;
+            width: 190px;
+            border-radius: 50%;
+            background-color: rgba(11, 103, 126, 0.883);
+            border: 1px solid rgb(120, 178, 192);
+            margin: 50px;
+            display: inline-block;
+            }
+
+        div.sub-menu {height: 50%;
+             width: 50%;
+             border-radius: 80px;
+             background-color:rgb(86, 107, 95) ;
+             color: rgb(169, 186, 240);
+             font-size: medium;
+             font-weight: 800;
+             border:3px solid rgb(0, 8, 4);
+             display: inline-flex;
+             margin: 23.5%;
+             text-align: inherit;
+            }
+
+    div#curved-trap1 {height: 50px;
+            width: 100px;
+            display: inline-block;
+            background-color: blue;}
+
+    h1 {display: inline-block;
+        padding:2px 2px 0px 50px;
+        font-weight: bolder;}
+    span {font-weight:lighter; font-size: 30px; text-decoration: underline;}
+
+    .header {background-color: rgb(100, 100, 114);
+           }
+    ul {display:inline-flex;}
+
+    li {display: inline-block;}
+
+    a {color: black; font-weight: bold; padding: 0px 10px;}
+
+    a:hover {background-color: rgb(100, 100, 114);
+            color:white;
+            padding: 10px;
+            border:black 2px solid;
+            font-weight: bold;}
+    .main {margin: 20px 50px; display: flexbox;}
+    p {display: flex;}
