@@ -8,15 +8,14 @@
     body {background-color: rgb(245, 249, 250);
         }
 
-    div.menu {height: 190px;
-            width: 190px;
+    div.menu {height: 200px;
+            width: 200px;
             border-radius: 50%;
-            background-color: rgba(11, 103, 126, 0.883);
-            border: 1px solid rgb(120, 178, 192);
+            background-color: red;
             margin: 50px;
             display: inline-block;
             }
-
+/* 
         div.sub-menu {height: 50%;
              width: 50%;
              border-radius: 80px;
@@ -28,12 +27,51 @@
              display: inline-flex;
              margin: 23.5%;
              text-align: inherit;
+            } */
+
+    div#curved-trap1 {height: 60px;
+            width: 60px;
+            float: left;
+            border-left:navy solid 40px;
+            border-top:blueviolet solid 40px; 
+            background-color: transparent;
+            border-top-left-radius: 100px;
             }
 
-    div#curved-trap1 {height: 50px;
-            width: 100px;
+    div#curved-trap2 {height: 60px;
+            width: 60px;
+            float: right;
+            border-right:yellow solid 40px;
+            border-top:orangered solid 40px; 
+            background-color: transparent;
+            border-top-right-radius: 100px;
+            }
+
+    div#curved-trap3 {height: 60px;
+            width: 60px;
+            float: left;
+            border-left:green solid 40px;
+            border-bottom:green solid 40px; 
+            background-color: transparent;
+            border-bottom-left-radius: 100px;
+            }
+
+    div#curved-trap4 {height: 60px;
+            width: 60px;
+            float: right;
+            border-right:deeppink solid 40px;
+            border-bottom:deeppink solid 40px; 
+            background-color: transparent;
+            border-bottom-right-radius: 100px;
+            }
+    div#curved-trap5 {height: 60px;
+            width: 60px;
             display: inline-block;
-            background-color: blue;}
+            border-right:deeppink solid 40px;
+            border-bottom:deeppink solid 40px; 
+            background-color: transparent;
+            border-bottom-right-radius: 100px;
+            }
 
     h1 {display: inline-block;
         padding:2px 2px 0px 50px;
