@@ -1,8 +1,7 @@
-function sine (degree, angle){
-     degree = 30;
-   let x = 5;
-   let y=34;
-    if (x < degree) {return "true"}
-}
+const http = require('http')
 
-console.log(sine())
+http.createServer((req, res)=>{
+  res.statusCode(200,)
+  res.writeHead('content-type', 'text/html')
+  res.end('i love being a web developer')
+}).listen(3000, ()=>{console.log('server running on specified port')})
